@@ -30,7 +30,7 @@ python user_information.py
 ## Cách chạy
 ```bash
 python products_info.py
-
+```bash
 ## 📧 Liên hệ
 Võ Văn Minh Trí  
 📩 vovanminhtri2002@gmail.com
