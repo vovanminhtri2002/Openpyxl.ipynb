@@ -14,8 +14,6 @@
 python user_information.py
 ```
 
----
-
 # 📦 Chương trình 2: Nhập Thông Tin Sản Phẩm (`products.py`)
 
 ## Tính năng
@@ -28,14 +26,10 @@ python user_information.py
 python products.py
 ```
 
----
-
 ## ⚙️ Yêu cầu
 ```bash
 pip install openpyxl
 ```
-
----
 
 ## 📧 Liên hệ
 Võ Văn Minh Trí  
