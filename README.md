@@ -31,9 +31,8 @@ python user_information.py
 ```bash
 python products_info.py
 ```
-
-```bash
 ## 📧 Liên hệ
+```bash
 Võ Văn Minh Trí  
 📩 vovanminhtri2002@gmail.com
 ```
