@@ -104,6 +104,5 @@ def main():
     # Lưu file Excel
     wb.save("user_info.xlsx")
     print("Đã lưu file thành công")
-
-# Gọi hàm chính
+    
 main()
