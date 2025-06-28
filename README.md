@@ -17,19 +17,19 @@ python user_information.py
 # 📦 Chương trình 2: Nhập Thông Tin Sản Phẩm (`products.py`)
 
 ## Tính năng
-- Nhập: tên sản phẩm, mã, loại hàng, giá nhập, giá bán, số lượng tồn kho.
-- Tính giá trị tồn kho = giá bán × số lượng.
-- Kiểm tra định dạng đầu vào, lưu vào `products.xlsx`.
+- Nhập: ID sản phẩm, tên sản phẩm, phí sản xuất, phí vận chuyển.
+- Chọn loại hàng:
+  - `0`: Không khuyến mãi  
+  - `1`: Có khuyến mãi (nhập thêm % giảm giá)
+- Nhập tỷ lệ lợi nhuận và tự động tính **giá bán sản phẩm** theo công thức:
+  - `(phí sản xuất + phí vận chuyển) / (1 - tỷ lệ lợi nhuận)`
+  - Nếu có khuyến mãi → trừ thêm phần trăm khuyến mãi
+- Lưu thông tin vào file `products.xlsx`, với các cột:
+  - ID sản phẩm, Tên sản phẩm, Phí sản xuất, Phí vận chuyển, Tỷ lệ lợi nhuận, Giá bán sản phẩm
 
 ## Cách chạy
 ```bash
-python products.py
-```
-
-## ⚙️ Yêu cầu
-```bash
-pip install openpyxl
-```
+python products_info.py
 
 ## 📧 Liên hệ
 Võ Văn Minh Trí  
